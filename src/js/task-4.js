@@ -8,7 +8,7 @@ const refs = {
     const input = e.target.elements;
   
     if (!input.email.value || !input.password.value) {
-      alert("Всі поля мають бути заповненні!");
+      alert("All form fields must be filled in");
     } else {
       const userObj = {
         email: input.email.value,
